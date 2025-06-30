@@ -7,8 +7,8 @@ export const APP_CONFIG = {
   name: 'React Clean Architecture Template',
   version: '1.0.0',
   description: 'Ein modernes React-Template mit Clean Architecture-Prinzipien',
-  author: 'Ihr Name',
-  repository: 'https://github.com/ihr-username/react-clean-architecture-template',
+  author: 'Christian Schaf',
+  repository: 'https://github.com/cschaf/react-clean-architecture-template',
 } as const
 
 export const API_CONFIG = {
