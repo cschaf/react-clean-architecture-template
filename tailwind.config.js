@@ -20,8 +20,8 @@ module.exports = {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
-				background: 'hsl(var(--background))',
-				foreground: 'hsl(var(--foreground))',
+				background: 'oklch(1 0 0)', // Direct value for testing
+				foreground: 'oklch(0.145 0 0)', // Direct value for testing
 				primary: {
 					DEFAULT: '#2B5D3A',
 					foreground: 'hsl(var(--primary-foreground))',
