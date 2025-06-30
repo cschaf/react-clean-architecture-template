@@ -9,6 +9,7 @@ export const APP_CONFIG = {
   description: 'Ein modernes React-Template mit Clean Architecture-Prinzipien',
   author: 'Christian Schaf',
   repository: 'https://github.com/cschaf/react-clean-architecture-template',
+  baseUrl: "/react-clean-architecture-template"
 } as const
 
 export const API_CONFIG = {
@@ -19,15 +20,15 @@ export const API_CONFIG = {
 } as const
 
 export const ROUTES = {
-  HOME: '/react-clean-architecture-template',
-  ABOUT: '/about',
-  USERS: '/users',
-  USER_DETAIL: '/users/:id',
-  DASHBOARD: '/dashboard',
-  SETTINGS: '/settings',
-  LOGIN: '/login',
-  REGISTER: '/register',
-  NOT_FOUND: '/404',
+  HOME: APP_CONFIG.baseUrl + '/',
+  ABOUT: APP_CONFIG.baseUrl +'/about',
+  USERS: APP_CONFIG.baseUrl +'/users',
+  USER_DETAIL: APP_CONFIG.baseUrl +'/users/:id',
+  DASHBOARD: APP_CONFIG.baseUrl +'/dashboard',
+  SETTINGS: APP_CONFIG.baseUrl +'/settings',
+  LOGIN: APP_CONFIG.baseUrl +'/login',
+  REGISTER: APP_CONFIG.baseUrl +'/register',
+  NOT_FOUND: APP_CONFIG.baseUrl +'/404',
 } as const
 
 export const STORAGE_KEYS = {
