@@ -4,6 +4,7 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
+  base: "/react-clean-architecture-template/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
