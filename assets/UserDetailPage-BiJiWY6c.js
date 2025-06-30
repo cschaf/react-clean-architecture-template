@@ -1,0 +1,1 @@
+import{b as r,u as s,j as t,P as a}from"./index-5cp7jk5v.js";function i(){const{id:e}=r();return s(`Benutzer ${e}`),t.jsx(a,{title:"Benutzer Details",subtitle:`Benutzer ID: ${e}`,children:t.jsx("div",{className:"bg-card rounded-lg border p-6 text-center",children:t.jsxs("p",{className:"text-muted-foreground",children:["Benutzer-Details für ID: ",e]})})})}export{i as default};
