@@ -19,7 +19,7 @@ export const API_CONFIG = {
 } as const
 
 export const ROUTES = {
-  HOME: '/',
+  HOME: '/react-clean-architecture-template',
   ABOUT: '/about',
   USERS: '/users',
   USER_DETAIL: '/users/:id',
